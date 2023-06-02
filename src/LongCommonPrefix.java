@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class LongCommonPrefix {
     public static void main(String[] args) {
         String[] arr = {"flower","flow","flight"};
@@ -14,4 +17,6 @@ public class LongCommonPrefix {
             }
         return prefix;
     }
+
+
 }
